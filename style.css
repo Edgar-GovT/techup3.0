@@ -1,15 +1,26 @@
+
+/* this affect the Top header, border, background color, margin and padding */
 h1 {
-    Border: 2px black dotted;
+    text-align: center;
+    Border: 2px black;
+    border-style:solid;
+    border-radius: 10px;
+    background-color: azure;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 100px;
+    padding-left: 10px;
     padding-right:10px;
+    margin: 50px;
     color: Red
 }
-.title {background-color: yellow
-}
-#Item1 {color:Blue;}
 
-.school1 {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 2px;
-}
+Body {background-color: rgb(253, 255, 227);}
+
+.title {background-color: yellow}             /* '.title' is a class element*/
+#item1 {color:Blue; 
+        background-color: greenyellow;}      /* '#item' is a unique identificator which is a higher level than class element*/
+.school1 {font-family:fantasy;
+        letter-spacing: 2px;}
+.buttonlast {border-color: black; 
+            box-shadow: 2cm;
+            border-radius: 5px;}
