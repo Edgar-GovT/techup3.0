@@ -1,0 +1,15 @@
+h1 {
+    Border: 2px black dotted;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right:10px;
+    color: Red
+}
+.title {background-color: yellow
+}
+#Item1 {color:Blue;}
+
+.school1 {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
